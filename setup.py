@@ -31,6 +31,6 @@ setup(name='collective.jqcookie',
       entry_points="""
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
-      target = opengever
+      target = collective
       """,
       )
