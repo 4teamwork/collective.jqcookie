@@ -5,20 +5,18 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup" 
     i18n_domain="collective.jqcookie">
 
-  <include package="collective.jqcookie" />
+    <five:registerPackage package="." />
 
-  <five:registerPackage package="." />
+    <genericsetup:registerProfile 
+        name="default" 
+        title="collective.jqcookie"
+        directory="profiles/default" 
+        description="JQuery Cookie Plugin"
+        provides="Products.GenericSetup.interfaces.EXTENSION" 
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot" />
 
-  <genericsetup:registerProfile 
-      name="default" 
-      title="collective.jqcookie"
-      directory="profiles/default" 
-      description="JQuery Cookie Plugin"
-      provides="Products.GenericSetup.interfaces.EXTENSION" 
-      for="Products.CMFPlone.interfaces.IPloneSiteRoot" />
-
-  <browser:resource
-      name="jquery.cookie.js"
-      file="jquery.cookie.js" />
+    <browser:resource
+        name="jquery.cookie.js"
+        file="jquery.cookie.js" />
 
 </configure>
