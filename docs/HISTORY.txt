@@ -10,8 +10,8 @@ Changelog
 1.1.0 (2014-02-12)
 ------------------
 
-* Moved package from svn to GitHub.
- [lknoepfel]
+- Moved package from svn to GitHub.
+  [lknoepfel]
 
 1.0a4
 -----
@@ -28,4 +28,4 @@ Changelog
 1.0
 ---
 
-* Initial release
+- Initial release
