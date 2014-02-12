@@ -8,7 +8,7 @@ setup(name='collective.jqcookie',
       version=version,
       description="" + \
           'Collective jqcookie Package (Maintainer: %s)' % maintainer,
-      long_description=open("README.txt").read() + "\n" + \
+      long_description=open("README.rst").read() + "\n" + \
                        open(os.path.join("docs", "HISTORY.txt")).read(),
 
       classifiers=[
