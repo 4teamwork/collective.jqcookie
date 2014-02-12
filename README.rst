@@ -21,3 +21,16 @@ Create a session cookie.
 Delete a cookie by passing null as value. Keep in mind that you have to use the same path and domain used when the cookie was set.
 
     $.cookie('the_cookie', null);
+
+Links
+=====
+
+* Main github project repository: https://github.com/4teamwork/collective.jqcookie
+* Issue tracker: https://github.com/4teamwork/collective.jqcookie/issues
+
+Copyright
+=========
+
+This package is copyright by `4teamwork <http://www.4teamwork.ch/>`_.
+
+``collective.jqcookie`` is licensed under GNU General Public License.
