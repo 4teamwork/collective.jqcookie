@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = open('collective/jqcookie/version.txt').read().strip()
+version = '1.0a4-dev'
 maintainer = 'Victor baumann'
 
 setup(name='collective.jqcookie',
@@ -10,25 +10,35 @@ setup(name='collective.jqcookie',
           'Collective jqcookie Package (Maintainer: %s)' % maintainer,
       long_description=open("README.txt").read() + "\n" + \
                        open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
+
       classifiers=[
+        'Framework :: Plone',
+        'Framework :: Plone :: 4.0',
+        'Framework :: Plone :: 4.1',
+        'Framework :: Plone :: 4.2',
+        'Framework :: Plone :: 4.3',
+        'Intended Audience :: Developers',
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='jquery cookie',
-      author='%s, 4teamwork GmbH'  % maintainer,
+
+      keywords='jquery cookie 4teamwork',
+      author='%s, 4teamwork AG'  % maintainer,
       author_email='mailto:info@4teamwork.ch',
       maintainer=maintainer,
-      url='http://psc.4teamwork.ch/dist/collective.jqcookie',
-      license='GPL2',
+      url='https://github.com/4teamwork/collective.jqcookie',
+
+      license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective'],
       include_package_data=True,
       zip_safe=False,
+
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
       ],
+
       entry_points="""
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
