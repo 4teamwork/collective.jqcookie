@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Adds an 8 year old version of `jquery-cookie <https://github.com/carhartl/jquery-cookie>`_ to plone.
+Adds an 10 year old version of `jquery-cookie <https://github.com/carhartl/jquery-cookie>`_ to plone.
 
 Usage
 =====
